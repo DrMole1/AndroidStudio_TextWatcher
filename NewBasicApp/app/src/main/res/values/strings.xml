@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">NewBasicApp</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Pour définir une chaine de caractère, on l'appelle dans le content_main
+    //android:text="@string/buttonName"-->
+    <string name="buttonName">MyButton</string>
+
+    <string name="nom">Nom</string>
+    <string name="prenom">Prenom</string>
+    <string name="email">Email</string>
+    <string name="valide">Valider</string>
+    <string name="annule">Annuler</string>
+
+    <string name="hautgauche">Haut Gauche</string>
+    <string name="haut">Haut</string>
+    <string name="hautdroite">Haut Droite</string>
+    <string name="gauche">Gauche</string>
+    <string name="centre">Centre</string>
+    <string name="droite">Droite</string>
+    <string name="basgauche">Bas Gauche</string>
+    <string name="bas">Bas</string>
+    <string name="basdroite">Bas Droite</string>
+
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!--Déclaration d'autres dimensions-->
+    <dimen name="doublemargin">32dp</dimen>
+    <dimen name="littlemargin">8dp</dimen>
+</resources>

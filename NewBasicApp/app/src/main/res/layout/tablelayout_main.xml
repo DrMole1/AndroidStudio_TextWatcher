@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <!--On met en place 3 row avec 3 éléments dans chacun-->
+    <!--On met en place le texte avec des strings stockés dans le fichier strings.xml-->
+    <TableRow>
+
+        <TextView
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:text="@string/hautgauche" />
+
+        <TextView
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:text="@string/haut" />
+
+        <TextView
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:text="@string/hautdroite" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:text="@string/gauche" />
+
+        <TextView
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:text="@string/centre" />
+
+        <TextView
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:text="@string/droite" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:text="@string/basgauche" />
+
+        <TextView
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:text="@string/bas" />
+
+        <TextView
+            android:padding="10dp"
+            android:text="@string/basdroite"
+            android:layout_margin="5dp" />
+    </TableRow>
+
+</TableLayout>

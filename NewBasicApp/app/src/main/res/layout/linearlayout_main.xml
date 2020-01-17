@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Bouton à droite avec texte du bouton à droite : utilisation
+    de layout_gravity et gravity-->
+    <Button
+        android:id="@string/buttonName"
+        android:layout_width="181dp"
+        android:layout_height="0dp"
+        android:layout_gravity="end"
+        android:layout_weight="1"
+        android:gravity="center|end"
+        android:text="@string/buttonName" />
+</LinearLayout>

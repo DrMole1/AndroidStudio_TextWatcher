@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TextWatcher</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="txtWriter">Ecrire ici</string>
+    <string name="txtInfo">20 caractères restants</string>
+    <string name="nameButton">Envoyer</string>
+    <string name="info1">Caractères restants : </string>
+    <string name="info2">Caractères en trop : </string>
+</resources>

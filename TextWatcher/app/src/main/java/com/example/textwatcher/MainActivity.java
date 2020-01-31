@@ -20,7 +20,7 @@ public class MainActivity extends Activity implements TextWatcher{
 
     // Déclaration des variables
     // ==========================================
-    private final static int NBMAXCHAR = 20;
+    private static int NBMAXCHAR = 20;
     private int nbCar_Restants = 20;
 
     private Button btnSend;
@@ -35,9 +35,9 @@ public class MainActivity extends Activity implements TextWatcher{
         setContentView(R.layout.content_main);
 
         // On affecte les différents widgets
-        msgWriter = findViewById(R.id.input);
-        msgInfo = findViewById(R.id.textViewInfo);
-        btnSend = findViewById(R.id.btnSend);
+        msgWriter = (EditText) findViewById(R.id.input);
+        msgInfo = (TextView) findViewById(R.id.textViewInfo);
+        btnSend = (Button) findViewById(R.id.btnSend);
         msgWriter.addTextChangedListener(this);
 
         btnSend.setOnClickListener(new View.OnClickListener() {
